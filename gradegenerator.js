@@ -7,23 +7,29 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 */
 
 
-function getGrade(score) {
-    let grade;
 
+
+function getGrade() {
+    
+    let score = prompt ('Please input student marks')
+    
     if (score >= 79){
-        grade = 'A';
+        return 'Grade A';
     }
     else if (score > 60 && score <= 79){
-        grade = 'B';
+        return 'Grade B';
     }
     else if (score > 49 && score <= 59){
-        grade = 'C';
+        return 'Grade C';
     }
     else if (score > 40 && score <= 49){
-        grade = 'D';
+        return 'Grade D';
     }
     else if (score <= 40){
-        grade = 'E';
+        return 'Grade E';
     }
-    return grade;
+    else {
+        return 'Invalid score'
+    }
+    
 }
