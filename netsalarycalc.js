@@ -88,7 +88,7 @@ function nssfDeduct(grossSalary) {
         nssftax = grossSalary * 0.06
     }
 
-    if (grossSalary > 18000) {
+    else if (grossSalary > 18000) {
         nssftax = 18000 * 0.06
     }
 
