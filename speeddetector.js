@@ -15,9 +15,12 @@ the function should print: “License suspended”.
 
 //detectSpeed(100)
 
-function detectSpeed(speed){
+function detectSpeed(){
+    let speed = prompt ('How fast is the driver going?')
     const speedLimit = 70;
     const kmAboveSpeedLimit = 5;
+
+    //calculate points 
     const points = Math.floor((speed - speedLimit) / kmAboveSpeedLimit)
 
     if (speed < speedLimit){
@@ -31,3 +34,6 @@ function detectSpeed(speed){
         return; 
     }
 }
+
+//invoke function 
+detectSpeed();
