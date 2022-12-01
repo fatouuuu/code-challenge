@@ -1,0 +1,24 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "## Phase 1 | Week 1 Code Challenge.",
+  "main": "gradegenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatouuuu/code-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatouuuu/code-challenge/issues"
+  },
+  "homepage": "https://github.com/fatouuuu/code-challenge#readme",
+  
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
