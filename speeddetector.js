@@ -15,6 +15,9 @@ the function should print: “License suspended”.
 
 //detectSpeed(100)
 
+const speedDetect = require('prompt-sync');
+const prompt = speedDetect();
+
 function detectSpeed(){
     let speed = prompt ('How fast is the driver going?')
     const speedLimit = 70;

@@ -7,10 +7,12 @@ A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 */
 
 
-
+const ps = require('prompt-sync');
+const prompt = ps();
 
 function getGrade() {
 
+    
     let score = prompt ('Please input student marks')
     
     if (score >= 79){

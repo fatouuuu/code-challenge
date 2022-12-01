@@ -1,3 +1,6 @@
+const net = require('prompt-sync');
+const prompt = net();
+
 
 //gross salary and benefits input by user 
 let grossSalary = prompt('Please input your gross monthly salary');
@@ -23,7 +26,6 @@ function salaryPaye(grossSalary) {
 
 
 // medical cover deduction
-let nhif;
 
 function medicalCover (){
     if (grossSalary <= 5999){
@@ -81,7 +83,6 @@ function medicalCover (){
 
 
 //pension scheme deduction
-let nssf;
 
 function nssfDeduct(grossSalary) {
     if (grossSalary <= 18000) {
